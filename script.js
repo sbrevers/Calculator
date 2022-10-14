@@ -13,16 +13,16 @@ const display = document.getElementById('display');
 const buttons = Array.from(document.querySelectorAll('button'));
 
 buttons.map (button => button.addEventListener('click', (e) => {
-    switch (e.target.innertext) {
-        case 'c':
-            display.innerText = '';
-            break;
+    switch (e.target.innerText) {
+        case 'C':
+                display.innerText = '';
+             break;
         case '=':
             try {
                 display.innerText = eval(display.innerText);
             }
             catch {
-                display.innertext = 'Error'
+                display.innerText = 'ERROR'
             }
             break;
         default:
