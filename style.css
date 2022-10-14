@@ -5,6 +5,7 @@ body{
     align-items: center;
     height: 100vh;
     background: linear-gradient(90deg, rgb(239, 211, 216), rgb(155, 155, 243));
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 main {
@@ -17,9 +18,12 @@ main {
 }
 
 .outputScreen {
-    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: end;
     margin: 0;
-    padding: 1rem;
+    padding-right: 10px;
+    height: 4rem;
     background: lightblue;
     border: 1px solid grey;
     border-radius: 5px;
