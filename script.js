@@ -22,7 +22,7 @@ buttons.map (button => button.addEventListener('click', (e) => {
                 display.innerText = eval(display.innerText);
             }
             catch {
-                display.innerText = 'ERROR'
+                display.innerText = 'ERROR';
             }
             break;
         default:

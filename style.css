@@ -5,7 +5,7 @@ body{
     align-items: center;
     height: 100vh;
     background: linear-gradient(90deg, rgb(239, 211, 216), rgb(155, 155, 243));
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: sans-serif;
 }
 
 main {
@@ -40,11 +40,12 @@ button {
     border: 1px solid grey;
     margin: 3px 3px 0px 3px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 button:active {
     box-shadow: 0 1px;
-    transform: translate(2px);
+    transform: translate(1px);
 }
 
 .equal {
